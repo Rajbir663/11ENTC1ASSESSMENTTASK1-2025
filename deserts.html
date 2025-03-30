@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Royal Coppenhagen</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="flavours.html">Flavours</a>
+            <a href="deserts.html" class="active">Deserts</a>
+            <a href="stores.html">Stores</a>
+            <a href="workwithus.html">Work With Us</a>
+            <a href="becomeafranchise.html">Become a Franchise</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+      
+    </body> 
+</html>
